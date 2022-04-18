@@ -2,7 +2,7 @@
 //  ToDoListItem+CoreDataProperties.swift
 //  CoreDataDemo
 //
-//  Created by Sajjad Malik on 12.04.22.
+//  Created by Sajjad Malik on 18.04.22.
 //
 //
 
@@ -18,6 +18,7 @@ extension ToDoListItem {
 
     @NSManaged public var createdAt: Date?
     @NSManaged public var name: String?
+    @NSManaged public var updatedAt: Date?
 
 }
 
